@@ -158,6 +158,25 @@
     padding: 0 24px 100px;
   }
 
+  .category-heading {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+    animation: fadeInUp 0.6s ease both;
+  }
+
+  .category-subheading {
+    font-size: 14px;
+    color: var(--text-tertiary);
+    margin-bottom: 28px;
+    animation: fadeInUp 0.6s ease 0.05s both;
+  }
+
+  .category-block { margin-bottom: 56px; }
+  .category-block:last-child { margin-bottom: 0; }
+
   .gallery-grid {
     columns: 3;
     column-gap: 20px;
@@ -408,235 +427,278 @@
 <div class="divider"></div>
 
 <section class="gallery-section">
-  <div class="gallery-grid">
 
-    <div class="gallery-item" style="animation-delay:0s">
-      <div class="gallery-img-wrap"><img src="images/01-vancouver-ascii.png" alt="Vancouver ASCII Art" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Vancouver ASCII Art</h3><p>A city skyline rendered entirely in ASCII characters</p></div>
+  <!-- DASHBOARDS & ANALYTICS -->
+  <div class="category-block">
+    <h2 class="category-heading">Dashboards & Analytics</h2>
+    <p class="category-subheading">Financial tools, grade trackers, and data visualizations</p>
+    <div class="gallery-grid">
+
+      <div class="gallery-item" style="animation-delay:0s">
+        <div class="gallery-img-wrap"><img src="images/ADB6F99E-65C6-4059-8C59-53E67B2F3E9E.jpg" alt="Financial Dashboard — Overview" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Financial Dashboard — Overview</h3><p>Executive snapshot with cash, working capital, revenue trends, and P&L composition</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.06s">
+        <div class="gallery-img-wrap"><img src="images/866ADFA9-9853-458F-A407-581BA3E440C5.jpg" alt="Financial Dashboard — Revenue" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Financial Dashboard — Revenue</h3><p>Revenue by service with monthly trends, active customers, and top client rankings</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.12s">
+        <div class="gallery-img-wrap"><img src="images/194418B8-EDB2-496A-865E-9437DB5558BF.jpg" alt="Financial Dashboard — Cash & AR" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Financial Dashboard — Cash & AR</h3><p>Cash flow trends, AR aging summary, and detailed receivables breakdown</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.18s">
+        <div class="gallery-img-wrap"><img src="images/B918D6E6-8B74-47A2-87CD-8B07FEDF08B3.jpg" alt="Family Financial Panorama" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Family Financial Panorama</h3><p>Net worth tracker with retirement, education, and financial readiness scores</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.24s">
+        <div class="gallery-img-wrap"><img src="images/77F16521-C145-4E07-9787-6322C091F8A2.jpg" alt="School Grades Dashboard" loading="lazy"></div>
+        <div class="gallery-caption"><h3>School Grades Dashboard</h3><p>Student grades tracker with completion rates, assignment status, and course breakdown</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.3s">
+        <div class="gallery-img-wrap"><img src="images/F8CD5703-A3AB-4A3F-84C6-828AF941F54D.png" alt="The Franklin 13" loading="lazy"></div>
+        <div class="gallery-caption"><h3>The Franklin 13</h3><p>13-day financial wellness program inspired by Benjamin Franklin's virtues</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.36s">
+        <div class="gallery-img-wrap"><img src="images/05-nps-dashboard-dark.png" alt="NPS Dashboard" loading="lazy"></div>
+        <div class="gallery-caption"><h3>NPS Dashboard</h3><p>Net Promoter Score analytics with score distribution and keyword analysis</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.42s">
+        <div class="gallery-img-wrap"><img src="images/20-nps-dashboard-light.jpg" alt="NPS Survey Results" loading="lazy"></div>
+        <div class="gallery-caption"><h3>NPS Survey Results</h3><p>Clean dashboard with key takeaways and industry benchmarks</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.48s">
+        <div class="gallery-img-wrap"><img src="images/24-nps-sentiment.png" alt="NPS Sentiment Analysis" loading="lazy"></div>
+        <div class="gallery-caption"><h3>NPS Sentiment Analysis</h3><p>Keyword-based sentiment distribution with positive, neutral, and negative counts</p></div>
+      </div>
+
     </div>
-
-    <div class="gallery-item" style="animation-delay:0.06s">
-      <div class="gallery-img-wrap"><img src="images/02-cdmx-family-planner.png" alt="CDMX Family Planner" loading="lazy"></div>
-      <div class="gallery-caption"><h3>CDMX Family Planner</h3><p>Multi-step trip planner for Mexico City with family-friendly options</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.12s">
-      <div class="gallery-img-wrap"><img src="images/03-weho-trivia.png" alt="WeHo Trivia Finder" loading="lazy"></div>
-      <div class="gallery-caption"><h3>WeHo Trivia Finder</h3><p>Weekly trivia night guide with interactive map for West Hollywood</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.18s">
-      <div class="gallery-img-wrap"><img src="images/04-key-west-itinerary.jpg" alt="Key West Itinerary" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Key West Itinerary</h3><p>Day-by-day vacation planner with budget tracking and sunrise times</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.24s">
-      <div class="gallery-img-wrap"><img src="images/05-nps-dashboard-dark.png" alt="NPS Dashboard" loading="lazy"></div>
-      <div class="gallery-caption"><h3>NPS Dashboard</h3><p>Net Promoter Score analytics with score distribution and keyword analysis</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.3s">
-      <div class="gallery-img-wrap"><img src="images/06-ukraine-planner.png" alt="Ukraine Vacation Planner" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Ukraine Vacation Planner</h3><p>Multi-city guide with restaurants, supermarkets, and cafes across Ukraine</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.36s">
-      <div class="gallery-img-wrap"><img src="images/07-great-ocean-road.jpg" alt="Great Ocean Road Guide" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Great Ocean Road Guide</h3><p>Curated food and wine weekend along Australia's iconic coastal drive</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.42s">
-      <div class="gallery-img-wrap"><img src="images/08-japan-2026.png" alt="Japan 2026 Planner" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Japan 2026 Planner</h3><p>26-day Japan trip with route, flights, F1 GP, and cherry blossom timing</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.48s">
-      <div class="gallery-img-wrap"><img src="images/09-vancouver-trip.jpg" alt="Vancouver Trip Planner" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Vancouver Trip Planner</h3><p>Fine dining and hidden bars guide with interactive dark-mode map</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.54s">
-      <div class="gallery-img-wrap"><img src="images/10-paris-guide.jpg" alt="Paris Neighborhood Guide" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Paris Neighborhood Guide</h3><p>Neighborhood and cafe explorer with categorized location pins</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.6s">
-      <div class="gallery-img-wrap"><img src="images/11-london-museums.jpg" alt="London Museum Planner" loading="lazy"></div>
-      <div class="gallery-caption"><h3>London Museum Planner</h3><p>Walking guide with visit tracking, hours, and must-see exhibits</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.66s">
-      <div class="gallery-img-wrap"><img src="images/12-boulder-colorado.png" alt="Boulder, Colorado Guide" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Boulder, Colorado Guide</h3><p>Comprehensive relocation guide with trails, neighborhoods, and cafes</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.72s">
-      <div class="gallery-img-wrap"><img src="images/13-caribbean-family.jpg" alt="Caribbean Family Planner" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Caribbean Family Planner</h3><p>Resort comparison tool with family scores, filters, and pricing</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.78s">
-      <div class="gallery-img-wrap"><img src="images/14-atacama-desert.jpg" alt="Atacama Desert Planner" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Atacama Desert Planner</h3><p>Executive travel planner with weather, altitude, and activity guides</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.84s">
-      <div class="gallery-img-wrap"><img src="images/15-italy-2026.jpg" alt="Italy 2026 Timeline" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Italy 2026 Timeline</h3><p>Multi-destination trip planner from Dolomites to Tuscany</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.9s">
-      <div class="gallery-img-wrap"><img src="images/16-central-europe.png" alt="Central Europe Route" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Central Europe Route</h3><p>Interactive map planner with Budapest, Vienna, and Graz itinerary</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:0.96s">
-      <div class="gallery-img-wrap"><img src="images/17-vancouver-island.png" alt="Vancouver Island Explorer" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Vancouver Island Explorer</h3><p>Activity planner with cycling routes, hikes, and family activities</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.02s">
-      <div class="gallery-img-wrap"><img src="images/18-german-christmas.png" alt="German Christmas Markets" loading="lazy"></div>
-      <div class="gallery-caption"><h3>German Christmas Markets</h3><p>Market finder with dates, descriptions, and interactive map</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.08s">
-      <div class="gallery-img-wrap"><img src="images/19-lake-tahoe.png" alt="Lake Tahoe Summer 2026" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Lake Tahoe Summer 2026</h3><p>Collaborative trip planner with hikes, dining, wine, and voting</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.14s">
-      <div class="gallery-img-wrap"><img src="images/20-nps-dashboard-light.jpg" alt="NPS Survey Results" loading="lazy"></div>
-      <div class="gallery-caption"><h3>NPS Survey Results</h3><p>Clean dashboard with key takeaways and industry benchmarks</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.2s">
-      <div class="gallery-img-wrap"><img src="images/21-austin-ascii-art.gif" alt="Austin TX ASCII Art" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Austin TX ASCII Art</h3><p>Animated skyline with the Capitol, Lady Bird Lake, and music notes</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.26s">
-      <div class="gallery-img-wrap"><img src="images/22-fort-lauderdale-ascii.jpg" alt="Fort Lauderdale ASCII" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Fort Lauderdale ASCII</h3><p>The Venice of America rendered in text — canals, palms, and beach</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.32s">
-      <div class="gallery-img-wrap"><img src="images/23-minneapolis-ascii.png" alt="Minneapolis ASCII Art" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Minneapolis ASCII Art</h3><p>City skyline with IDS Tower, Stone Arch Bridge, and Mississippi River</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.38s">
-      <div class="gallery-img-wrap"><img src="images/24-nps-sentiment.png" alt="NPS Sentiment Analysis" loading="lazy"></div>
-      <div class="gallery-caption"><h3>NPS Sentiment Analysis</h3><p>Keyword-based sentiment distribution with positive, neutral, and negative counts</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.44s">
-      <div class="gallery-img-wrap"><img src="images/0D3711EA-5E32-487C-BEC5-68461FD44F9B.png" alt="SCTE-104 Injection Tool" loading="lazy"></div>
-      <div class="gallery-caption"><h3>SCTE-104 Injection Tool</h3><p>Broadcast engineering tool for splice commands with connection and message parameters</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.5s">
-      <div class="gallery-img-wrap"><img src="images/194418B8-EDB2-496A-865E-9437DB5558BF.jpg" alt="Financial Dashboard — Cash & AR" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Financial Dashboard — Cash & AR</h3><p>Cash flow trends, AR aging summary, and detailed receivables breakdown</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.56s">
-      <div class="gallery-img-wrap"><img src="images/4870F97A-A89C-4875-A82C-1690D67D386C.png" alt="Bankruptcy Case Tracker" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Bankruptcy Case Tracker</h3><p>Legal case dashboard with pleadings, emails, activity timeline, and ECF notices</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.62s">
-      <div class="gallery-img-wrap"><img src="images/761DA8A8-A459-4B0E-A051-6CF5F685F8E3.png" alt="Social Post Checker" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Social Post Checker</h3><p>X/Twitter composer with live preview, character count, and validation checks</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.68s">
-      <div class="gallery-img-wrap"><img src="images/7695E34B-884C-47AE-8563-A5C316C66742.png" alt="Weekly Meal Planner" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Weekly Meal Planner</h3><p>7-day meal plan with calorie tracking, workout types, and shopping list</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.74s">
-      <div class="gallery-img-wrap"><img src="images/77F16521-C145-4E07-9787-6322C091F8A2.jpg" alt="School Grades Dashboard" loading="lazy"></div>
-      <div class="gallery-caption"><h3>School Grades Dashboard</h3><p>Student grades tracker with completion rates, assignment status, and course breakdown</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.8s">
-      <div class="gallery-img-wrap"><img src="images/79B16352-EA43-402F-AAC6-58F55787E6A2.png" alt="Credit Card Scanner" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Credit Card Scanner</h3><p>Camera-powered card reader that auto-fills payment form fields</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.86s">
-      <div class="gallery-img-wrap"><img src="images/866ADFA9-9853-458F-A407-581BA3E440C5.jpg" alt="Financial Dashboard — Revenue" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Financial Dashboard — Revenue</h3><p>Revenue by service with monthly trends, active customers, and top client rankings</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.92s">
-      <div class="gallery-img-wrap"><img src="images/9110EB79-3170-44E0-80FE-44CD5F700A37.png" alt="Game Dialogue Voice App" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Game Dialogue Voice App</h3><p>Voice cloning tool for game characters with URL sources and audio upload</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:1.98s">
-      <div class="gallery-img-wrap"><img src="images/99F9E8BC-3D5F-4F08-96BB-85F1AABBF917.png" alt="WhatsApp Message Scheduler" loading="lazy"></div>
-      <div class="gallery-caption"><h3>WhatsApp Message Scheduler</h3><p>Spanish-language tool to schedule WhatsApp messages with contact picker</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.04s">
-      <div class="gallery-img-wrap"><img src="images/A616D8DD-EE53-41FC-B6D6-C9E26853AC98.png" alt="N2 Drying System Calculator" loading="lazy"></div>
-      <div class="gallery-caption"><h3>N2 Drying System Calculator</h3><p>Thermodynamic analysis tool for humid nitrogen drying with pipeline specs</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.1s">
-      <div class="gallery-img-wrap"><img src="images/ADB6F99E-65C6-4059-8C59-53E67B2F3E9E.jpg" alt="Financial Dashboard — Overview" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Financial Dashboard — Overview</h3><p>Executive snapshot with cash, working capital, revenue trends, and P&L composition</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.16s">
-      <div class="gallery-img-wrap"><img src="images/B918D6E6-8B74-47A2-87CD-8B07FEDF08B3.jpg" alt="Family Financial Panorama" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Family Financial Panorama</h3><p>Net worth tracker with retirement, education, and financial readiness scores</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.22s">
-      <div class="gallery-img-wrap"><img src="images/BBCAC37F-95EC-418F-80C2-E1E27300104B.png" alt="Health Symptom Tracker" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Health Symptom Tracker</h3><p>Daily wellness log with emoji ratings for sleep, digestion, lungs, and medications</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.28s">
-      <div class="gallery-img-wrap"><img src="images/C1AC01D3-A978-4B08-84B6-69D51B0ED738.png" alt="Parkinson's Caregiver App" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Parkinson's Caregiver App</h3><p>Mobile app prototype with daily check-ins, community, and caregiver onboarding</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.34s">
-      <div class="gallery-img-wrap"><img src="images/CC0CE0C9-56C2-463A-A4F1-CC61CF06999D.png" alt="Podcast Prep Generator" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Podcast Prep Generator</h3><p>AI-powered guest research tool that generates interview outlines from context</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.4s">
-      <div class="gallery-img-wrap"><img src="images/CF9D74FF-0BC2-4EF1-96D1-945F1AED4134.png" alt="Delivery Route Map" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Delivery Route Map</h3><p>Interactive territory planner with color-coded routes and customer pins</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.46s">
-      <div class="gallery-img-wrap"><img src="images/EA743E0E-37A5-4FE9-8EB8-3C88C4090518.png" alt="Harry Potter Quiz Game" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Harry Potter Quiz Game</h3><p>Multiplayer film trivia with house selection and player setup</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.52s">
-      <div class="gallery-img-wrap"><img src="images/F3B2A6D8-DD4A-44F9-A6CD-8CE14242C8CF.png" alt="Card Scanner — Camera Mode" loading="lazy"></div>
-      <div class="gallery-caption"><h3>Card Scanner — Camera Mode</h3><p>Live camera view scanning a credit card to auto-fill payment details</p></div>
-    </div>
-
-    <div class="gallery-item" style="animation-delay:2.58s">
-      <div class="gallery-img-wrap"><img src="images/F8CD5703-A3AB-4A3F-84C6-828AF941F54D.png" alt="The Franklin 13" loading="lazy"></div>
-      <div class="gallery-caption"><h3>The Franklin 13</h3><p>13-day financial wellness program inspired by Benjamin Franklin's virtues</p></div>
-    </div>
-
   </div>
+
+  <!-- SPECIALIZED TOOLS -->
+  <div class="category-block">
+    <h2 class="category-heading">Specialized Tools</h2>
+    <p class="category-subheading">Industry-specific apps, calculators, and workflow automation</p>
+    <div class="gallery-grid">
+
+      <div class="gallery-item" style="animation-delay:0s">
+        <div class="gallery-img-wrap"><img src="images/4870F97A-A89C-4875-A82C-1690D67D386C.png" alt="Bankruptcy Case Tracker" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Bankruptcy Case Tracker</h3><p>Legal case dashboard with pleadings, emails, activity timeline, and ECF notices</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.06s">
+        <div class="gallery-img-wrap"><img src="images/CF9D74FF-0BC2-4EF1-96D1-945F1AED4134.png" alt="Delivery Route Map" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Delivery Route Map</h3><p>Interactive territory planner with color-coded routes and customer pins</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.12s">
+        <div class="gallery-img-wrap"><img src="images/79B16352-EA43-402F-AAC6-58F55787E6A2.png" alt="Credit Card Scanner" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Credit Card Scanner</h3><p>Camera-powered card reader that auto-fills payment form fields</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.18s">
+        <div class="gallery-img-wrap"><img src="images/F3B2A6D8-DD4A-44F9-A6CD-8CE14242C8CF.png" alt="Card Scanner — Camera Mode" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Card Scanner — Camera Mode</h3><p>Live camera view scanning a credit card to auto-fill payment details</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.24s">
+        <div class="gallery-img-wrap"><img src="images/0D3711EA-5E32-487C-BEC5-68461FD44F9B.png" alt="SCTE-104 Injection Tool" loading="lazy"></div>
+        <div class="gallery-caption"><h3>SCTE-104 Injection Tool</h3><p>Broadcast engineering tool for splice commands with connection and message parameters</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.3s">
+        <div class="gallery-img-wrap"><img src="images/A616D8DD-EE53-41FC-B6D6-C9E26853AC98.png" alt="N2 Drying System Calculator" loading="lazy"></div>
+        <div class="gallery-caption"><h3>N2 Drying System Calculator</h3><p>Thermodynamic analysis tool for humid nitrogen drying with pipeline specs</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.36s">
+        <div class="gallery-img-wrap"><img src="images/9110EB79-3170-44E0-80FE-44CD5F700A37.png" alt="Game Dialogue Voice App" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Game Dialogue Voice App</h3><p>Voice cloning tool for game characters with URL sources and audio upload</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.42s">
+        <div class="gallery-img-wrap"><img src="images/CC0CE0C9-56C2-463A-A4F1-CC61CF06999D.png" alt="Podcast Prep Generator" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Podcast Prep Generator</h3><p>AI-powered guest research tool that generates interview outlines from context</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.48s">
+        <div class="gallery-img-wrap"><img src="images/761DA8A8-A459-4B0E-A051-6CF5F685F8E3.png" alt="Social Post Checker" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Social Post Checker</h3><p>X/Twitter composer with live preview, character count, and validation checks</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.54s">
+        <div class="gallery-img-wrap"><img src="images/99F9E8BC-3D5F-4F08-96BB-85F1AABBF917.png" alt="WhatsApp Message Scheduler" loading="lazy"></div>
+        <div class="gallery-caption"><h3>WhatsApp Message Scheduler</h3><p>Spanish-language tool to schedule WhatsApp messages with contact picker</p></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- HEALTH & LIFESTYLE -->
+  <div class="category-block">
+    <h2 class="category-heading">Health & Lifestyle</h2>
+    <p class="category-subheading">Wellness trackers, caregiving tools, and meal planning</p>
+    <div class="gallery-grid">
+
+      <div class="gallery-item" style="animation-delay:0s">
+        <div class="gallery-img-wrap"><img src="images/C1AC01D3-A978-4B08-84B6-69D51B0ED738.png" alt="Parkinson's Caregiver App" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Parkinson's Caregiver App</h3><p>Mobile app prototype with daily check-ins, community, and caregiver onboarding</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.06s">
+        <div class="gallery-img-wrap"><img src="images/BBCAC37F-95EC-418F-80C2-E1E27300104B.png" alt="Health Symptom Tracker" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Health Symptom Tracker</h3><p>Daily wellness log with emoji ratings for sleep, digestion, lungs, and medications</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.12s">
+        <div class="gallery-img-wrap"><img src="images/7695E34B-884C-47AE-8563-A5C316C66742.png" alt="Weekly Meal Planner" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Weekly Meal Planner</h3><p>7-day meal plan with calorie tracking, workout types, and shopping list</p></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- TRAVEL & CITY GUIDES -->
+  <div class="category-block">
+    <h2 class="category-heading">Travel & City Guides</h2>
+    <p class="category-subheading">Trip planners, itineraries, and destination explorers</p>
+    <div class="gallery-grid">
+
+      <div class="gallery-item" style="animation-delay:0s">
+        <div class="gallery-img-wrap"><img src="images/08-japan-2026.png" alt="Japan 2026 Planner" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Japan 2026 Planner</h3><p>26-day Japan trip with route, flights, F1 GP, and cherry blossom timing</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.06s">
+        <div class="gallery-img-wrap"><img src="images/15-italy-2026.jpg" alt="Italy 2026 Timeline" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Italy 2026 Timeline</h3><p>Multi-destination trip planner from Dolomites to Tuscany</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.12s">
+        <div class="gallery-img-wrap"><img src="images/16-central-europe.png" alt="Central Europe Route" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Central Europe Route</h3><p>Interactive map planner with Budapest, Vienna, and Graz itinerary</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.18s">
+        <div class="gallery-img-wrap"><img src="images/10-paris-guide.jpg" alt="Paris Neighborhood Guide" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Paris Neighborhood Guide</h3><p>Neighborhood and cafe explorer with categorized location pins</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.24s">
+        <div class="gallery-img-wrap"><img src="images/11-london-museums.jpg" alt="London Museum Planner" loading="lazy"></div>
+        <div class="gallery-caption"><h3>London Museum Planner</h3><p>Walking guide with visit tracking, hours, and must-see exhibits</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.3s">
+        <div class="gallery-img-wrap"><img src="images/07-great-ocean-road.jpg" alt="Great Ocean Road Guide" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Great Ocean Road Guide</h3><p>Curated food and wine weekend along Australia's iconic coastal drive</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.36s">
+        <div class="gallery-img-wrap"><img src="images/02-cdmx-family-planner.png" alt="CDMX Family Planner" loading="lazy"></div>
+        <div class="gallery-caption"><h3>CDMX Family Planner</h3><p>Multi-step trip planner for Mexico City with family-friendly options</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.42s">
+        <div class="gallery-img-wrap"><img src="images/04-key-west-itinerary.jpg" alt="Key West Itinerary" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Key West Itinerary</h3><p>Day-by-day vacation planner with budget tracking and sunrise times</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.48s">
+        <div class="gallery-img-wrap"><img src="images/06-ukraine-planner.png" alt="Ukraine Vacation Planner" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Ukraine Vacation Planner</h3><p>Multi-city guide with restaurants, supermarkets, and cafes across Ukraine</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.54s">
+        <div class="gallery-img-wrap"><img src="images/09-vancouver-trip.jpg" alt="Vancouver Trip Planner" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Vancouver Trip Planner</h3><p>Fine dining and hidden bars guide with interactive dark-mode map</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.6s">
+        <div class="gallery-img-wrap"><img src="images/12-boulder-colorado.png" alt="Boulder, Colorado Guide" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Boulder, Colorado Guide</h3><p>Comprehensive relocation guide with trails, neighborhoods, and cafes</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.66s">
+        <div class="gallery-img-wrap"><img src="images/13-caribbean-family.jpg" alt="Caribbean Family Planner" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Caribbean Family Planner</h3><p>Resort comparison tool with family scores, filters, and pricing</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.72s">
+        <div class="gallery-img-wrap"><img src="images/14-atacama-desert.jpg" alt="Atacama Desert Planner" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Atacama Desert Planner</h3><p>Executive travel planner with weather, altitude, and activity guides</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.78s">
+        <div class="gallery-img-wrap"><img src="images/17-vancouver-island.png" alt="Vancouver Island Explorer" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Vancouver Island Explorer</h3><p>Activity planner with cycling routes, hikes, and family activities</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.84s">
+        <div class="gallery-img-wrap"><img src="images/18-german-christmas.png" alt="German Christmas Markets" loading="lazy"></div>
+        <div class="gallery-caption"><h3>German Christmas Markets</h3><p>Market finder with dates, descriptions, and interactive map</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.9s">
+        <div class="gallery-img-wrap"><img src="images/19-lake-tahoe.png" alt="Lake Tahoe Summer 2026" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Lake Tahoe Summer 2026</h3><p>Collaborative trip planner with hikes, dining, wine, and voting</p></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ASCII ART & GAMES -->
+  <div class="category-block">
+    <h2 class="category-heading">ASCII Art & Games</h2>
+    <p class="category-subheading">City skylines in text, trivia nights, and quizzes</p>
+    <div class="gallery-grid">
+
+      <div class="gallery-item" style="animation-delay:0s">
+        <div class="gallery-img-wrap"><img src="images/EA743E0E-37A5-4FE9-8EB8-3C88C4090518.png" alt="Harry Potter Quiz Game" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Harry Potter Quiz Game</h3><p>Multiplayer film trivia with house selection and player setup</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.06s">
+        <div class="gallery-img-wrap"><img src="images/03-weho-trivia.png" alt="WeHo Trivia Finder" loading="lazy"></div>
+        <div class="gallery-caption"><h3>WeHo Trivia Finder</h3><p>Weekly trivia night guide with interactive map for West Hollywood</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.12s">
+        <div class="gallery-img-wrap"><img src="images/01-vancouver-ascii.png" alt="Vancouver ASCII Art" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Vancouver ASCII Art</h3><p>A city skyline rendered entirely in ASCII characters</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.18s">
+        <div class="gallery-img-wrap"><img src="images/21-austin-ascii-art.gif" alt="Austin TX ASCII Art" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Austin TX ASCII Art</h3><p>Animated skyline with the Capitol, Lady Bird Lake, and music notes</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.24s">
+        <div class="gallery-img-wrap"><img src="images/22-fort-lauderdale-ascii.jpg" alt="Fort Lauderdale ASCII" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Fort Lauderdale ASCII</h3><p>The Venice of America rendered in text — canals, palms, and beach</p></div>
+      </div>
+
+      <div class="gallery-item" style="animation-delay:0.3s">
+        <div class="gallery-img-wrap"><img src="images/23-minneapolis-ascii.png" alt="Minneapolis ASCII Art" loading="lazy"></div>
+        <div class="gallery-caption"><h3>Minneapolis ASCII Art</h3><p>City skyline with IDS Tower, Stone Arch Bridge, and Mississippi River</p></div>
+      </div>
+
+    </div>
+  </div>
+
 </section>
 
 <section class="cta-section">
   <h2>Ready to build something?</h2>
   <p>Join the next cohort of Claude Code for Beginners and ship your first project in a day.</p>
-  <a href="https://every.to/courses/claude-code-101" class="cta-btn">
+  <a href="https://every.to/events" class="cta-btn">
     See Upcoming Dates
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
   </a>
